@@ -116,7 +116,7 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://github.com/SteveKaneya/K-Accommodations" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Stephen-Awuor/K-Accommodations" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         SOURCE CODE
                       </Button>
@@ -208,7 +208,7 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://github.com/SteveKaneya/KTec-solutions.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Stephen-Awuor/KTec-solutions.com" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         SOURCE CODE
                       </Button>
@@ -300,7 +300,7 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://github.com/SteveKaneya/Jobs-Portal" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Stephen-Awuor/Jobs-Portal" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         SOURCE CODE
                       </Button>
