@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Stephen-Awuor.portfolio/static/css/main.848ec2bc.chunk.css",
-    "main.js": "/Stephen-Awuor.portfolio/static/js/main.7122488a.chunk.js",
-    "main.js.map": "/Stephen-Awuor.portfolio/static/js/main.7122488a.chunk.js.map",
+    "main.js": "/Stephen-Awuor.portfolio/static/js/main.c9c21aca.chunk.js",
+    "main.js.map": "/Stephen-Awuor.portfolio/static/js/main.c9c21aca.chunk.js.map",
     "runtime-main.js": "/Stephen-Awuor.portfolio/static/js/runtime-main.d3ccecf5.js",
     "runtime-main.js.map": "/Stephen-Awuor.portfolio/static/js/runtime-main.d3ccecf5.js.map",
     "static/js/2.3a3d8d6a.chunk.js": "/Stephen-Awuor.portfolio/static/js/2.3a3d8d6a.chunk.js",
@@ -22,7 +22,6 @@
     "static/media/k-jobs1.5855094b.PNG": "/Stephen-Awuor.portfolio/static/media/k-jobs1.5855094b.PNG",
     "static/media/ktec2.7acc1265.PNG": "/Stephen-Awuor.portfolio/static/media/ktec2.7acc1265.PNG",
     "static/media/logo.18ed7934.png": "/Stephen-Awuor.portfolio/static/media/logo.18ed7934.png",
-    "static/media/logow.67360047.jpg": "/Stephen-Awuor.portfolio/static/media/logow.67360047.jpg",
     "static/media/php.71419e8b.png": "/Stephen-Awuor.portfolio/static/media/php.71419e8b.png",
     "static/media/profile.b28b01e4.jpg": "/Stephen-Awuor.portfolio/static/media/profile.b28b01e4.jpg",
     "static/media/react.add74742.svg": "/Stephen-Awuor.portfolio/static/media/react.add74742.svg",
@@ -34,6 +33,6 @@
     "static/js/runtime-main.d3ccecf5.js",
     "static/js/2.3a3d8d6a.chunk.js",
     "static/css/main.848ec2bc.chunk.css",
-    "static/js/main.7122488a.chunk.js"
+    "static/js/main.c9c21aca.chunk.js"
   ]
 }
