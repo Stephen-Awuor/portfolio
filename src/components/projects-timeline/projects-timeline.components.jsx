@@ -243,7 +243,6 @@ function ProjectTimeline() {
                                                 <hr />
                                                 <strong>Features:</strong>
                                                 <ul className="list-styles pt-1">
-                                                <li>Hotel description</li>
                                                     <li>Organization descriptions</li>
                                                     <li>Secure registration and login feature before applying for any job</li>
                                                 </ul>
