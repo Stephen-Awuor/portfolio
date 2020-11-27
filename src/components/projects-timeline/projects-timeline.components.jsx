@@ -25,7 +25,7 @@ import "./projects-timeline.style.css";
 function ProjectTimeline() {
     return (
         <div id='projects'>
-            <h1 className="pt-3 text-center font-details-b pb-3">Coding projects</h1>
+            <h1 className="pt-3 text-center font-details-b pb-3">Sample projects</h1>
             <Timeline>
                 <Events>
                  {/* Project: K-Accommodations */}
