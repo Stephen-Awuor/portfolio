@@ -28,9 +28,9 @@ const ContactForm = () => {
             </div>
             
             <div className="m-2">
-              <a href="https://github.com/Stephen-Awuor/" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-dark" title="My other projects">
-                  <i className="fab fa-github-square"></i> GitHub
+              <a href="https://wa.me/254729952303" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-success" title="let's chat">
+                  <i className="fab fa-github-square"></i> WhatsApp
                 </Button>
               </a>
             </div>

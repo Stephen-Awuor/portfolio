@@ -13,7 +13,7 @@ import "./skills.styles.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">Skills and Competencies</h1>
+      <h1 className="text-center font-details-b pb-4">Skills and services</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around">
           <Col md={4}>
@@ -36,82 +36,47 @@ const Skills = () => {
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Technical Support</Card.Title>
+                <Card.Title className="text-center  card-title">ICT Technical Support</Card.Title>
               </Card.Body>
             </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Networks</Card.Title>
+                <Card.Title className="text-center  card-title">Networks and surveillance solutions</Card.Title>
               </Card.Body>
             </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Cloud (aws)</Card.Title>
+                <Card.Title className="text-center  card-title">Writing</Card.Title>
               </Card.Body>
             </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Virtualization (vmware)</Card.Title>
+                <Card.Title className="text-center  card-title">Data entry, Analysis and Visualization</Card.Title>
               </Card.Body>
             </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">CCTV Surveilance</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Data Visualization (PowerBI)</Card.Title>
+                <Card.Title className="text-center  card-title">Research and report writing</Card.Title>
               </Card.Body>
             </Card>
           </Col>
 
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Multi-OS user</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Research skills</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Report/Academic writing skills</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Communication skills</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Innovative skills</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Team Player</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
           <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Am also a cloud technology enthusiast who believes in continous learning of both technical and soft skills.</Card.Title>
+                <Card.Title className="text-center  card-title">Am also a cloud technology and cyber security enthusiast</Card.Title>
+              </Card.Body>
+            </Card>
+            </Col>
+
+            <Col>
+            <Card className="focus mt-2 mb-2">
+              <Card.Body>
+                <Card.Title className="text-center  card-title">General ICT Consultancy services</Card.Title>
               </Card.Body>
             </Card>
             </Col>

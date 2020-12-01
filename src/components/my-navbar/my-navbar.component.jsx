@@ -16,10 +16,10 @@ const MyNavbar = () => {
     <Nav className="ml-auto">
       <Nav.Link href="#home">HOME</Nav.Link>
       <Nav.Link href="#about">ABOUT</Nav.Link>
-      <Nav.Link href="#skills">SKILLS</Nav.Link>
+      <Nav.Link href="#skills">SKILLS AND SERVICES</Nav.Link>
       <Nav.Link href="#experience">EXPERIENCE</Nav.Link>
       <Nav.Link href="#projects">PROJECTS</Nav.Link>
-      <Nav.Link href="#contact">CONTACT ME</Nav.Link>
+      <Nav.Link href="#contact">CONTACT</Nav.Link>
      
     </Nav>
     

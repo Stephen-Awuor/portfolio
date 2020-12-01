@@ -23,9 +23,9 @@ const About = () => {
              <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hello, This is <strong>&nbsp;Stephen Awuor</strong>
-                <br />A professional offering ICT solutions to businesses and organizations with the aim of maximizing the value of technology in business and organizations. Some of my services include Web and application development, Network solutions, Research, Academic writing besides resolving technical problems and providing training to users. While with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                <br />Am a hardworking proffesional who understands how important my work is to my overall happiness. I therefore take my work seriously, collaborate and communicate efficiently with my team members or clients grow, my skills occasionally inorder to work to the highest standards possibly in my role. 
                 <br />
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to upgrade my skills and offer much better services.During my free time, i hike with friends/family, socialize, watch movies/series besides watching football.
+                <br />When it comes to my job, am always flexible, committed and willing to do whatever it takes to enable the organisation/client achieve their goals. This is well demonstrated in my previous track record and also appraisal.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
