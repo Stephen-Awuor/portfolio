@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3d80e19.chunk.css",
-    "main.js": "/portfolio/static/js/main.210424b8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.210424b8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d8ca39d0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d8ca39d0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.647e7a63.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.647e7a63.js.map",
     "static/js/2.488bb303.chunk.js": "/portfolio/static/js/2.488bb303.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/ktec2.7acc1265.PNG": "/portfolio/static/media/ktec2.7acc1265.PNG",
     "static/media/logo.18ed7934.png": "/portfolio/static/media/logo.18ed7934.png",
     "static/media/php.71419e8b.png": "/portfolio/static/media/php.71419e8b.png",
-    "static/media/profile.e10bf20e.jpg": "/portfolio/static/media/profile.e10bf20e.jpg",
+    "static/media/profile.6cd7ce15.png": "/portfolio/static/media/profile.6cd7ce15.png",
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/slide1.14619b04.webp": "/portfolio/static/media/slide1.14619b04.webp",
     "static/media/slide2.d58e7971.webp": "/portfolio/static/media/slide2.d58e7971.webp",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.647e7a63.js",
     "static/js/2.488bb303.chunk.js",
     "static/css/main.f3d80e19.chunk.css",
-    "static/js/main.210424b8.chunk.js"
+    "static/js/main.d8ca39d0.chunk.js"
   ]
 }
