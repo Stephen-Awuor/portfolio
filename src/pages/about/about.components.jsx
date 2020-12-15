@@ -17,7 +17,7 @@ const About = () => {
             <Row className="pt-3 pb-5 align-items-center">
              <Col xs={5} md={4}>
              <Row className="justify-content-center mb-2 mr-2 ">
-             <Image className="profile justify-content-end" alt="profile" src={profile} roundedCircle />
+             <Image className="profile justify-content-end" alt="profile" src={profile} thumbnail />
               </Row>
              </Col>
              <Col xs={12} md={6}>
