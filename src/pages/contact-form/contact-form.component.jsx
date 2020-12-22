@@ -41,13 +41,6 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
-            <div className="m-2">
-              <a href="https://web.facebook.com/steve.kaneya" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-primary" title="Say hello on FB">
-                  <i className="fab fa-facebook-square"></i> FaceBook
-                </Button>
-              </a>
-            </div>
           </Col>
         </Row>
       </Jumbotron>
