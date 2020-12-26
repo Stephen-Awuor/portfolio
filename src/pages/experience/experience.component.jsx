@@ -27,15 +27,14 @@ const Experience = () => {
                     <br />
                     <strong>Duration:</strong> July 2018 - July 2020
                     <br/>
-                    <strong> Some of my duties included; </strong>
+                    <strong> Key Achievements</strong>
                     <ul className="text-left">
-                      <li>Technical &amp; Support: I troubleshooted and resolved hardware and software issues on various ICT devices that affect users.</li>
-                      <li>Conducted user training sessions for users on use of ICT systems and equipment.</li>
-                      <li>Installation and configuration of management information systems and software.
-                      </li>
-                      <li>Performed systems, software and hardware documentations and kept accurate records and backups of the same.</li>
-                      <li>Web intranet updating & General administrative tasks</li>
-                      
+                      <li>Significantly developed and organized ICT and network infrastructure functionality to effectively deliver optimal and streamlined services in its daily operations.</li>
+                      <li>Maintained the reporting delivery system, to conveniently relay accurate and standard quality reports, meeting aggressive deadlines.</li>
+                      <li>Resolved user IT problems, sufficiently backing up crucial data and providing technical assistance within the IT department.</li>
+                      <li>Redesigned the Early Learning Report template from the normal A-4 paper into a printable A-5 booklet, relatively easing editing and maintenance by the management.</li>
+                      <li>Researched, tested and implemented a help desk software on the schools online platforms, abating user functionality and technical support.</li>
+                      <li>Comprehensively trained users on IT systems and devices, mobilizing available resources, subsequently saving on time and money.</li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                     </ul>
                     <br />
