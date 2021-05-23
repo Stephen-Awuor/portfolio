@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3d80e19.chunk.css",
-    "main.js": "/portfolio/static/js/main.95d05786.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.95d05786.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.36deb7ea.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.36deb7ea.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.647e7a63.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.647e7a63.js.map",
     "static/js/2.8a4d3d9b.chunk.js": "/portfolio/static/js/2.8a4d3d9b.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/k-jobs1.5855094b.PNG": "/portfolio/static/media/k-jobs1.5855094b.PNG",
     "static/media/kis.56826f93.PNG": "/portfolio/static/media/kis.56826f93.PNG",
     "static/media/ktec2.7acc1265.PNG": "/portfolio/static/media/ktec2.7acc1265.PNG",
-    "static/media/logo.18ed7934.png": "/portfolio/static/media/logo.18ed7934.png",
+    "static/media/logo.6b28e68e.jpeg": "/portfolio/static/media/logo.6b28e68e.jpeg",
     "static/media/php.71419e8b.png": "/portfolio/static/media/php.71419e8b.png",
     "static/media/profile.6e1bac5d.png": "/portfolio/static/media/profile.6e1bac5d.png",
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.647e7a63.js",
     "static/js/2.8a4d3d9b.chunk.js",
     "static/css/main.f3d80e19.chunk.css",
-    "static/js/main.95d05786.chunk.js"
+    "static/js/main.36deb7ea.chunk.js"
   ]
 }
