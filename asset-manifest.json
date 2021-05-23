@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3d80e19.chunk.css",
-    "main.js": "/portfolio/static/js/main.129cf459.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.129cf459.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.95d05786.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.95d05786.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.647e7a63.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.647e7a63.js.map",
-    "static/js/2.f202e9df.chunk.js": "/portfolio/static/js/2.f202e9df.chunk.js",
-    "static/js/2.f202e9df.chunk.js.map": "/portfolio/static/js/2.f202e9df.chunk.js.map",
+    "static/js/2.8a4d3d9b.chunk.js": "/portfolio/static/js/2.8a4d3d9b.chunk.js",
+    "static/js/2.8a4d3d9b.chunk.js.map": "/portfolio/static/js/2.8a4d3d9b.chunk.js.map",
     "static/js/3.ee967980.chunk.js": "/portfolio/static/js/3.ee967980.chunk.js",
     "static/js/3.ee967980.chunk.js.map": "/portfolio/static/js/3.ee967980.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.f3d80e19.chunk.css.map": "/portfolio/static/css/main.f3d80e19.chunk.css.map",
-    "static/js/2.f202e9df.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f202e9df.chunk.js.LICENSE.txt",
+    "static/js/2.8a4d3d9b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8a4d3d9b.chunk.js.LICENSE.txt",
     "static/media/contact-form.styles.css": "/portfolio/static/media/background.48c0b661.webp",
     "static/media/background.webp": "/portfolio/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/portfolio/static/media/bootstrap-4.997c463d.svg",
@@ -20,6 +20,7 @@
     "static/media/javascript.ba40d6a9.svg": "/portfolio/static/media/javascript.ba40d6a9.svg",
     "static/media/k-acc5.20906510.PNG": "/portfolio/static/media/k-acc5.20906510.PNG",
     "static/media/k-jobs1.5855094b.PNG": "/portfolio/static/media/k-jobs1.5855094b.PNG",
+    "static/media/kis.56826f93.PNG": "/portfolio/static/media/kis.56826f93.PNG",
     "static/media/ktec2.7acc1265.PNG": "/portfolio/static/media/ktec2.7acc1265.PNG",
     "static/media/logo.18ed7934.png": "/portfolio/static/media/logo.18ed7934.png",
     "static/media/php.71419e8b.png": "/portfolio/static/media/php.71419e8b.png",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.647e7a63.js",
-    "static/js/2.f202e9df.chunk.js",
+    "static/js/2.8a4d3d9b.chunk.js",
     "static/css/main.f3d80e19.chunk.css",
-    "static/js/main.129cf459.chunk.js"
+    "static/js/main.95d05786.chunk.js"
   ]
 }
