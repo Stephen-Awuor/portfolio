@@ -393,7 +393,7 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https:kis.sc.ke" target="_blank" rel="noopener noreferrer">
+                    <a href="https://kis.sc.ke" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         VIEW ONLINE
                       </Button>
