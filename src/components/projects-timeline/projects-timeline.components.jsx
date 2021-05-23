@@ -5,6 +5,7 @@ import { Timeline, Events, ImageEvent } from "@merc/react-timeline";
 import L_ACCOMMODATION from "../../assets/img/projects/k-acc5.PNG";
 import L_TEC from "../../assets/img/projects/ktec2.PNG";
 import L_KJOBS from "../../assets/img/projects/k-jobs1.PNG";
+import L_KIS from "../../assets/img/projects/kis.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
@@ -303,6 +304,98 @@ function ProjectTimeline() {
                     <a href="https://github.com/Stephen-Awuor/Jobs-Portal" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         SOURCE CODE
+                      </Button>
+                    </a>
+                  </div>
+                        </div>
+                    </ImageEvent>
+
+                    {/* Project: KJobs */}
+                    <ImageEvent
+                        date="01/01/2021"
+                        className="text-center"
+                        text="Kinderworld"
+                        src={L_KIS}
+                        alt="kinderworld"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> This is Kinderworld International School's official website that i built using html, css, javascript and Bootstrap. Am still working on many more Features.
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Organization descriptions</li>
+                                                    <li>Online application intergrated with schools LMS</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML 5"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS 3"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            CSS3
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="php"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            PhP
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_MYSQL}
+                                                                alt="mysql"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            MySql
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                    <a href="https:kis.sc.ke" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-info">
+                        VIEW ONLINE
                       </Button>
                     </a>
                   </div>

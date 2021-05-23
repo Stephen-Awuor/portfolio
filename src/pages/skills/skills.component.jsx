@@ -48,7 +48,7 @@ const Skills = () => {
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Freelance Writing</Card.Title>
+                <Card.Title className="text-center  card-title">Teaching</Card.Title>
               </Card.Body>
             </Card>
 
