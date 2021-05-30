@@ -29,6 +29,7 @@ const Experience = () => {
                     <br/>
                     <strong> Key Achievements</strong>
                     <ul className="text-left">
+                      <li>Built the organization's ICT infrastructure from ground up</li>
                       <li>Significantly developed and organized the school's ICT infrastructure functionality to effectively deliver optimal and streamlined services in its daily operations.</li>
                       <li>Maintained the reporting delivery system, to conveniently relay accurate and standard quality reports, meeting aggressive deadlines.</li>
                       <li>Resolved user IT problems, sufficiently backing up crucial data and providing technical assistance within the IT department.</li>
