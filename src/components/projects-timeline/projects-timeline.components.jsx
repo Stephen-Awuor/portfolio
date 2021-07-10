@@ -209,9 +209,9 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://github.com/Stephen-Awuor/KTec-solutions.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://ktecsolutions.herokuapp.com/index.php" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
-                        SOURCE CODE
+                        VIEW ONLINE
                       </Button>
                     </a>
                   </div>
