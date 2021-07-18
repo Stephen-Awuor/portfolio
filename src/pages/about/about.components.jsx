@@ -22,7 +22,6 @@ const About = () => {
              </Col>
              <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hello, This is <strong>&nbsp;Stephen Awuor</strong>
                 <br />Am a hardworking professional who understands how important my work is to my overall happiness. I therefore take my work seriously, collaborate and communicate efficiently with my team members or clients. I grow my skills occasionally inorder to work to the highest standards possibly in my role. 
                 <br />
                 <br />When it comes to my job, am always flexible, committed and willing to do whatever it takes to enable the organisation/client achieve their goals. This is well demonstrated in my previous track record and also appraisal.

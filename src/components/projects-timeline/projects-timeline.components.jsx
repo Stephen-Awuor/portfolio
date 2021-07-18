@@ -26,14 +26,286 @@ import "./projects-timeline.style.css";
 function ProjectTimeline() {
     return (
         <div id='projects'>
-            <h1 className="pt-3 text-center font-details-b pb-3">Sample projects</h1>
+            <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
             <Timeline>
                 <Events>
-                 {/* Project: K-Accommodations */}
-                    <ImageEvent
-                        date="01/05/2020"
+                {/* Project: Kinderworld */}
+                <ImageEvent
                         className="text-center"
-                        text="K-Accommodations"
+                        text="Education"
+                        src={L_KIS}
+                        alt="kinderworld"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> This is Kinderworld International School's official website that i built using html, css, javascript and Bootstrap. Am still working on many more Features.
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Organization descriptions</li>
+                                                    <li>Online application intergrated with schools LMS</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML 5"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS 3"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            CSS3
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="php"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            PhP
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_MYSQL}
+                                                                alt="mysql"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            MySql
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                    <a href="https://kis.sc.ke" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-info">
+                        VIEW ONLINE
+                      </Button>
+                    </a>
+                  </div>
+                        </div>
+                    </ImageEvent>
+
+                {/* Project: Kaneya Tec-Solutions */}
+                    <ImageEvent
+                        className="text-center"
+                        text="Corporate"
+                        src={L_TEC}
+                        alt="ktec-solutions"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> KTec-solutions.com is an enterprise level website that i built to  provide information about the organization i.e it's services, Location e.t.c.
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Oganization description i.e. services, location, contact details, partners</li>
+                                                    <li>Secure registration and login portal for clients</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML 5"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS 3"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            CSS3
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="php"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            PhP
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_MYSQL}
+                                                                alt="mysql"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            MySql
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                    <a href="https://ktecsolutions.herokuapp.com/index.php" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-info">
+                        VIEW ONLINE
+                      </Button>
+                    </a>
+                  </div>
+                        </div>
+                    </ImageEvent>
+
+                     {/* Project: KJobs */}
+                     <ImageEvent
+                        className="text-center"
+                        text="Corporate"
+                        src={L_KJOBS}
+                        alt="kjobs"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> K-Jobs is a simple web application that am building using Laravel for any organisation advertise jobs and conduct online recruitments (***In Progress***) 
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Organization descriptions</li>
+                                                    <li>Secure registration and login feature before applying for any job</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML 5"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS 3"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            CSS3
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="php"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            PhP
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_MYSQL}
+                                                                alt="mysql"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            MySql
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                    <a href="https://github.com/Stephen-Awuor/Jobs-Portal" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-info">
+                        SOURCE CODE
+                      </Button>
+                    </a>
+                  </div>
+                        </div>
+                    </ImageEvent>
+
+                    {/* Project: K-Accommodations */}
+                    <ImageEvent
+                        className="text-center"
+                        text="Hospitality"
                         src={L_ACCOMMODATION}
                         alt="K-ACCOMMODATIONS"
                     >
@@ -126,281 +398,6 @@ function ProjectTimeline() {
                         </div>
                     </ImageEvent>
 
-                {/* Project: Kaneya Tec-Solutions */}
-                    <ImageEvent
-                        date="01/11/2019"
-                        className="text-center"
-                        text="KTec-solutions.com"
-                        src={L_TEC}
-                        alt="ktec-solutions"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                    <Card>
-                                        <Accordion.Toggle
-                                            as={Card.Header}
-                                            eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </Accordion.Toggle>
-
-                                        <Accordion.Collapse eventKey="0" className="text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong> KTec-solutions.com is a basic enterprise level website that i built to  provide information about the organization i.e it's services, Location e.t.c.
-                                                <hr />
-                                                <strong>Features:</strong>
-                                                <ul className="list-styles pt-1">
-                                                    <li>Oganization description i.e. services, location, contact details, partners</li>
-                                                    <li>Secure registration and login portal for clients</li>
-                                                </ul>
-                                                <hr />
-                                                <strong>Tech used:</strong>
-                                                <ul>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_HTML5}
-                                                                alt="HTML 5"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            HTML5
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_CSS3}
-                                                                alt="CSS 3"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            CSS3
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_PHP}
-                                                                alt="php"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            PhP
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_MYSQL}
-                                                                alt="mysql"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            MySql
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </Accordion.Collapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://ktecsolutions.herokuapp.com/index.php" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        VIEW ONLINE
-                      </Button>
-                    </a>
-                  </div>
-                        </div>
-                    </ImageEvent>
-
-                     {/* Project: KJobs */}
-                     <ImageEvent
-                        date="01/07/2020"
-                        className="text-center"
-                        text="K-Jobs"
-                        src={L_KJOBS}
-                        alt="kjobs"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                    <Card>
-                                        <Accordion.Toggle
-                                            as={Card.Header}
-                                            eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </Accordion.Toggle>
-
-                                        <Accordion.Collapse eventKey="0" className="text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong> K-Jobs is a simple web application that am building using Laravel for any organisation advertise jobs and conduct online recruitments (***In Progress***) 
-                                                <hr />
-                                                <strong>Features:</strong>
-                                                <ul className="list-styles pt-1">
-                                                    <li>Organization descriptions</li>
-                                                    <li>Secure registration and login feature before applying for any job</li>
-                                                </ul>
-                                                <hr />
-                                                <strong>Tech used:</strong>
-                                                <ul>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_HTML5}
-                                                                alt="HTML 5"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            HTML5
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_CSS3}
-                                                                alt="CSS 3"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            CSS3
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_PHP}
-                                                                alt="php"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            PhP
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_MYSQL}
-                                                                alt="mysql"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            MySql
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </Accordion.Collapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://github.com/Stephen-Awuor/Jobs-Portal" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        SOURCE CODE
-                      </Button>
-                    </a>
-                  </div>
-                        </div>
-                    </ImageEvent>
-
-                    {/* Project: KJobs */}
-                    <ImageEvent
-                        date="01/01/2021"
-                        className="text-center"
-                        text="Kinderworld"
-                        src={L_KIS}
-                        alt="kinderworld"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                    <Card>
-                                        <Accordion.Toggle
-                                            as={Card.Header}
-                                            eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </Accordion.Toggle>
-
-                                        <Accordion.Collapse eventKey="0" className="text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong> This is Kinderworld International School's official website that i built using html, css, javascript and Bootstrap. Am still working on many more Features.
-                                                <hr />
-                                                <strong>Features:</strong>
-                                                <ul className="list-styles pt-1">
-                                                    <li>Organization descriptions</li>
-                                                    <li>Online application intergrated with schools LMS</li>
-                                                </ul>
-                                                <hr />
-                                                <strong>Tech used:</strong>
-                                                <ul>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_HTML5}
-                                                                alt="HTML 5"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            HTML5
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_CSS3}
-                                                                alt="CSS 3"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            CSS3
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_PHP}
-                                                                alt="php"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            PhP
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_MYSQL}
-                                                                alt="mysql"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            MySql
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </Accordion.Collapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://kis.sc.ke" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        VIEW ONLINE
-                      </Button>
-                    </a>
-                  </div>
-                        </div>
-                    </ImageEvent>
                 </Events>
             </Timeline>
         </div>

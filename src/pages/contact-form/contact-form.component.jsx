@@ -14,8 +14,8 @@ const ContactForm = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a href="mailto:stevekaneya@gmail.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-danger" title="stevekaneya@gmail.com">
-                  <i className="fas fa-envelope-square"></i> Email Me
+                <Button variant="outline-info" title="stevekaneya@gmail.com">
+                  <i className="fas fa-envelope-square"></i> Email - stevekaneya@gmail.com
                 </Button>
               </a>
             </div>
@@ -38,6 +38,13 @@ const ContactForm = () => {
               <a href="https://twitter.com/kaneya_steve" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="Tweets are welcomed!">
                   <i className="fab fa-twitter"></i> Twitter
+                </Button>
+              </a>
+            </div>
+            <div className="m-2">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info">
+                  <i className="fab fa-twitter"></i> Call - +254729952303
                 </Button>
               </a>
             </div>

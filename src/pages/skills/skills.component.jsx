@@ -13,7 +13,7 @@ import "./skills.styles.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">Skills and services</h1>
+      <h1 className="text-center font-details-b pb-4">Skills and Services</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around">
           <Col md={4}>
@@ -48,7 +48,7 @@ const Skills = () => {
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Teaching</Card.Title>
+                <Card.Title className="text-center  card-title">IT Teaching</Card.Title>
               </Card.Body>
             </Card>
 
@@ -60,7 +60,7 @@ const Skills = () => {
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Research and report writing</Card.Title>
+                <Card.Title className="text-center  card-title">Academic Research and report writing</Card.Title>
               </Card.Body>
             </Card>
           </Col>
