@@ -17,7 +17,7 @@ const Skills = () => {
       <CardDeck>
         <Row className="d-flex justify-content-around">
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            {/*<Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Web Development</Card.Title>
                 <hr />
@@ -31,38 +31,19 @@ const Skills = () => {
                   ))}
                 </Card.Text>
               </Card.Body>
+              </Card>*/}
+              <Card className="focus mt-2 mb-2">
+              <Card.Body>
+                <Card.Title className="text-center  card-title">Web Development (Html,CSS, Bootstrap). Currently learning Laravel and React.Js Frameworks</Card.Title>
+              </Card.Body>
             </Card>
-          </Col>
-          <Col md={4}>
+
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Technical Support</Card.Title>
               </Card.Body>
             </Card>
 
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Networks administration</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">IT Teaching</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Data entry, Analysis and Visualization</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Academic Research and report writing</Card.Title>
-              </Card.Body>
-            </Card>
           </Col>
 
           <Col>
@@ -74,33 +55,23 @@ const Skills = () => {
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Windows server administration</Card.Title>
+                <Card.Title className="text-center  card-title">ICT Teaching/Training</Card.Title>
               </Card.Body>
             </Card>
 
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Business Acumen</Card.Title>
-              </Card.Body>
-            </Card>
 
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Client-centric</Card.Title>
-              </Card.Body>
-            </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Structural Organization</Card.Title>
-              </Card.Body>
-            </Card>
             </Col>
 
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Am open for IT Consultancy services and Freelance work</Card.Title>
+                <Card.Title className="text-center  card-title">IT Consultancy services and Freelance work</Card.Title>
+              </Card.Body>
+            </Card>
+
+            <Card className="focus mt-2 mb-2">
+              <Card.Body>
+                <Card.Title className="text-center  card-title">Academic Research and report writing</Card.Title>
               </Card.Body>
             </Card>
             </Col>

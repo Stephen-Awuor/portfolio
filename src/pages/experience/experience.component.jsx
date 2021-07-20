@@ -20,7 +20,7 @@ const Experience = () => {
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Tech Support, IT Teaching</strong>
+                    <strong className="body-title-style ">My experience over the past 4 years  include;</strong>
                     <br />
                     <strong>Duration:</strong> 2017 to Date
                     <br/>
