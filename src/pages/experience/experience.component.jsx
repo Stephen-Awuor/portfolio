@@ -26,13 +26,13 @@ const Experience = () => {
                     <br/>
                     <strong> Key Achievements</strong>
                     <ul className="text-left">
-                      <li>Built an organization's ICT infrastructure from ground up i.e Networking around the entire organisation, Website design, Domain registration, G-Suit acquisition and configuration, Servers setup etc.</li>
-                      <li>Significantly maintained and organized the IT infrastructure functionality to effectively deliver optimal and streamlined services in its daily operations.</li>
-                      <li>Maintained the reporting delivery system, to conveniently relay accurate and standard quality reports, meeting aggressive deadlines.</li>
-                      <li>Resolved user IT problems, sufficiently backing up crucial data and providing technical assistance within the IT department.</li>
-                      <li>Planning and teaching ICT classes in primary school in addition to sponsoring and leading extra-curricular activities, ICDL supervision and coordination. </li>
-                      <li>Comprehensively trained users on IT systems and devices, mobilizing available resources, subsequently saving on time and money.</li>
-                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
+                      <li>I have successfully built an entire organization's ICT infrastructure from ground up, This improved efficienncy of operations by 90% i.e Networking around the entire organisation, Website design, Domain registration, G-Suit acquisition and configuration, Servers setup etc.</li>
+                      <li>Significantly maintained and organized the IT infrastructure functionality</li>
+                      <li>Worked on various web development projects for multiple clients and successfully delivered well designed modern, mobile responsive websites.</li>
+                      <li>Over the years i have successfully provided technical support to multiple users and fixed critical issues that directly affect production. </li>
+                      <li>Planned and tought ICT lessons to students in addition to sponsoring and leading extra-curricular activities, ICDL supervision and coordination. </li>
+                      <li>Comprehensively trained users on IT systems and devices, mobilizing available resources, subsequently saving on time and money. I have achieved this through hosting of webinars and trainings</li>
+                 
                     </ul>
                     <br />
                     <strong>***Check Resume or Linked for work experience***</strong> 
