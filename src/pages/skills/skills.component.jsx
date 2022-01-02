@@ -40,7 +40,7 @@ const Skills = () => {
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Technical Support</Card.Title>
+                <Card.Title className="text-center  card-title">IT Consultancy and Freelance work</Card.Title>
               </Card.Body>
             </Card>
 
@@ -49,13 +49,13 @@ const Skills = () => {
           <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Cloud technology and cyber security enthusiast</Card.Title>
+                <Card.Title className="text-center  card-title">Networking</Card.Title>
               </Card.Body>
             </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">ICT Teaching/Training</Card.Title>
+                <Card.Title className="text-center  card-title">ICT/Computer Science Teaching</Card.Title>
               </Card.Body>
             </Card>
 
@@ -65,7 +65,7 @@ const Skills = () => {
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">IT Consultancy services and Freelance work</Card.Title>
+                <Card.Title className="text-center  card-title">Technical Support</Card.Title>
               </Card.Body>
             </Card>
 

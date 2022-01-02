@@ -5,7 +5,6 @@ import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_LARAVEL from "../../assets/img/skills/laravel.png";
 import L_MYSQL from "../../assets/img/skills/mysql.png";
-import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
 export const skills = {
   web: [
@@ -20,12 +19,6 @@ export const skills = {
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
-    },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
     },
     {
       link: "https://getbootstrap.com/",

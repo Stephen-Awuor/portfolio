@@ -42,11 +42,9 @@ const ContactForm = () => {
               </a>
             </div>
             <div className="m-2">
-              <a href="" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info">
                   <i className="fab fa-twitter"></i> Call - +254729952303
-                </Button>
-              </a>
+                </Button>  
             </div>
           </Col>
         </Row>

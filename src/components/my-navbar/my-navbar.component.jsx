@@ -20,13 +20,10 @@ const MyNavbar = () => {
       <Nav.Link href="#experience">EXPERIENCE</Nav.Link>
       <Nav.Link href="#projects">PROJECTS</Nav.Link>
       <Nav.Link href="#contact">CONTACT</Nav.Link>
-     
     </Nav>
-    
   </Navbar.Collapse>
 </Navbar>
         </>
     )
 }
-
 export default MyNavbar

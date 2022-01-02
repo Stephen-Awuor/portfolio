@@ -480,9 +480,9 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="http://ec2-13-244-203-163.af-south-1.compute.amazonaws.com/K-Accomodation/public/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Stephen-Awuor/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
-                        VIEW ONLINE
+                        SOURCE CODE
                       </Button>
                     </a>
                   </div>
