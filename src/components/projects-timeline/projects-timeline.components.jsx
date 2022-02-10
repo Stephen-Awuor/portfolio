@@ -112,7 +112,7 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://g-writers.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://stephanie-academics.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         VIEW ONLINE
                       </Button>
