@@ -9,7 +9,7 @@ import "./experience.styles.css";
 const Experience = () => {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3">Experience</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">Experience & Achievements</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
@@ -20,18 +20,14 @@ const Experience = () => {
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Some of my accomplishments include;</strong>
-                    <br />
-                    <strong>Duration:</strong> 2017 to Date
-                    <br/>
-                    <strong> Key Achievements</strong>
+                   
                     <ul className="text-left">
                       <li>Successfully built an entire organization's ICT infrastructure from ground up, This improved efficienncy of operations by 90% i.e Networking around the entire organisation, Website design, Domain registration, G-Suit acquisition and configuration, Servers setup etc.</li>
                       <li>Significantly maintained and organized the organization's IT infrastructure functionality</li>
                       <li>Worked on various web development projects for multiple clients and successfully delivered well designed modern, mobile responsive websites.</li>
                       <li>Over the years i have successfully provided technical support to multiple users and fixed critical issues that directly affect production. </li>
-                      <li>Planned and tought ICT/Computer Science lessons to students in addition to sponsoring and leading extra-curricular activities, ICDL supervision and coordination. </li>
-                      <li>Comprehensively trained users on IT systems and devices, mobilizing available resources, subsequently saving on time and money. I have achieved this through hosting of webinars and trainings</li>
+                      <li>Planned and tought ICT/Computer Science lessons to students in addition to sponsoring and leading extra-curricular activities, ICDL supervision and co-ordination. </li>
+                      <li>Comprehensively conducted trainings on ICT awareness, mobilizing available resources, subsequently saving on time and money. I have achieved this through hosting of webinars and trainings</li>
                  
                     </ul>
                     <br />

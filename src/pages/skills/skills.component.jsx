@@ -34,28 +34,16 @@ const Skills = () => {
               </Card>*/}
               <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Web Development (Html,CSS, Bootstrap). Currently learning Laravel and React.Js Frameworks</Card.Title>
+                <Card.Title className="text-center  card-title">IT Services (Web Development, IT Support, Networking)</Card.Title>
               </Card.Body>
             </Card>
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">IT Consultancy and Freelance work</Card.Title>
-              </Card.Body>
-            </Card>
-
           </Col>
 
           <Col>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Networking</Card.Title>
-              </Card.Body>
-            </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">ICT/Computer Science Teaching</Card.Title>
+                <Card.Title className="text-center  card-title">ICT/Computer Science Tutoring</Card.Title>
               </Card.Body>
             </Card>
 
@@ -63,15 +51,10 @@ const Skills = () => {
             </Col>
 
             <Col>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Technical Support</Card.Title>
-              </Card.Body>
-            </Card>
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Academic Research and report writing</Card.Title>
+                <Card.Title className="text-center  card-title">Academic Research and Report writing</Card.Title>
               </Card.Body>
             </Card>
             </Col>
