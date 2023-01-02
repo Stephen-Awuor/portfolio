@@ -24,7 +24,7 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded">
                 <br />Am a hardworking professional who understands how important my work is to my overall happiness. I therefore take my work seriously, collaborate and communicate efficiently with my team members or clients. I grow my skills occasionally inorder to work to the highest standards possibly in my role. 
                 <br />
-                <br />When it comes to my job, am always flexible, committed and willing to do whatever it takes to enable the organisation/client achieve their goals. This is well demonstrated in my previous track record and also appraisal.
+                <br />My mission is to be a better version of myself by overcoming all the challenges that come my way, Then inspire and build others in every possible way.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -35,7 +35,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1p8p4R4S5GSvYuC9NebtbZSSA59iSXCAz/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1G-f8rKVZ4fE15qyx6NY3JXzrfjmOhNIq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

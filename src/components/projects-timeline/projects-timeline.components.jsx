@@ -3,7 +3,7 @@ import { Timeline, Events, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_ACCOMMODATION from "../../assets/img/projects/k-acc5.PNG";
-import L_TEC from "../../assets/img/projects/ktec2.PNG";
+import L_TEC from "../../assets/img/projects/webinar.jpg";
 import L_KJOBS from "../../assets/img/projects/k-jobs1.PNG";
 import L_KIS from "../../assets/img/projects/kis.PNG";
 import L_G from "../../assets/img/projects/g-writers.PNG";
@@ -27,7 +27,7 @@ import "./projects-timeline.style.css";
 function ProjectTimeline() {
     return (
         <div id='projects'>
-            <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
+            <h1 className="pt-3 text-center font-details-b pb-3">A selection of stuff I've built for the web...</h1>
             <Timeline>
                 <Events>
  {/* Project: g-writers */}
@@ -211,12 +211,12 @@ function ProjectTimeline() {
                         </div>
                     </ImageEvent>
 
-                {/* Project: Kaneya Tec-Solutions */}
+                {/* Project: Adesa Webinar */}
                     <ImageEvent
                         className="text-center"
-                        text="Corporate"
+                        text=""
                         src={L_TEC}
-                        alt="ktec-solutions"
+                        alt=""
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
                             <div>
@@ -227,75 +227,23 @@ function ProjectTimeline() {
                                             eventKey="0"
                                             className="p-2 text-center accordian-main"
                                         >
-                                            PROJECT DETAILS
+                                            WEBINAR DETAILS
                                         </Accordion.Toggle>
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong> KTec-solutions.com is an enterprise level website that i built to  provide information about the organization i.e it's services, Location e.t.c.
-                                                <hr />
-                                                <strong>Features:</strong>
-                                                <ul className="list-styles pt-1">
-                                                    <li>Oganization description i.e. services, location, contact details, partners</li>
-                                                    <li>Secure registration and login portal for clients</li>
-                                                </ul>
-                                                <hr />
-                                                <strong>Tech used:</strong>
-                                                <ul>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_HTML5}
-                                                                alt="HTML 5"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            HTML5
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_CSS3}
-                                                                alt="CSS 3"
-                                                                rounded
-                                                                className="image-style m-1"
-                                                            ></Image>{" "}
-                                                            CSS3
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_PHP}
-                                                                alt="php"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            PhP
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_MYSQL}
-                                                                alt="mysql"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            MySql
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                                The African Data Engineering and Science Association (ADESA) aspires to be a focal point for data engineering, cyber security and data science practitioners in all parts of Africa, with the ability to empower and inspire professionals in those fields to excel and contribute significantly to the shaping of their work environments and national development. I was honored to present the Impacts of Big Data Analytics on the Kenyan Economy during ADESA Kenya's webinar.
+                                                Visit <a href="https://adesa.y-org.com/wp/">ADESA</a>
+                                            
                                             </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://ktecsolutions.herokuapp.com/index.php" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1hW4pL4ECPqm0EkvbHSLfhiuZYtYAqulu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
-                        VIEW ONLINE
+                        WATCH
                       </Button>
                     </a>
                   </div>

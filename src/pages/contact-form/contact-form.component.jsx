@@ -43,7 +43,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
                 <Button variant="outline-info">
-                  <i className="fab fa-twitter"></i> Call - +254729952303
+                  <i className="fab fa-twitter"></i> Call: +254729952303
                 </Button>  
             </div>
           </Col>
