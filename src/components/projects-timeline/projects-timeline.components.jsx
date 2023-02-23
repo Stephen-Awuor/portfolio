@@ -27,7 +27,7 @@ import "./projects-timeline.style.css";
 function ProjectTimeline() {
     return (
         <div id='projects'>
-            <h1 className="pt-3 text-center font-details-b pb-3">A selection of stuff I've built for the web...</h1>
+            <h1 className="pt-3 text-center font-details-b pb-3">When free, I code......</h1>
             <Timeline>
                 <Events>
  {/* Project: g-writers */}

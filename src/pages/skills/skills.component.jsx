@@ -19,7 +19,7 @@ const Skills = () => {
           <Col md={4}>
               <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">ICT Tutoring</Card.Title>
+                <Card.Title className="text-center  card-title">IT/Computer Science Tutoring</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -47,14 +47,14 @@ const Skills = () => {
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Communication Skills</Card.Title>
+                <Card.Title className="text-center  card-title">Research Skills</Card.Title>
               </Card.Body>
             </Card>
             </Col>
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Team Player</Card.Title>
+                <Card.Title className="text-center  card-title">Data Management</Card.Title>
               </Card.Body>
             </Card>
             </Col>
