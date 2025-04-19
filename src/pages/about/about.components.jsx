@@ -22,9 +22,9 @@ const About = () => {
              </Col>
              <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                <br />Am a hardworking professional who understands how important my work is to my overall happiness. I therefore take my work seriously, collaborate and communicate efficiently with my team members or clients. I grow my skills occasionally inorder to work to the highest standards possibly in my role. 
+                <br />A dedicated and versatile ICT and Computing Trainer with a strong background in IT Support and Web Development. I bring a passion for technology and education, with proven experience in delivering engaging computing lessons, providing effective technical support, and building responsive websites. With a solid understanding of both educational and technical environments, I excel at simplifying complex concepts, solving IT issues efficiently, and developing digital solutions that enhance user experience.  
                 <br />
-                <br />My mission is to be a better version of myself by overcoming all the challenges that come my way, Then inspire and build others in every possible way.
+                <br />My passion is to contribute to an environment that not only challenges but also rewards the collective efforts of both educators and learners.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -35,7 +35,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1G-f8rKVZ4fE15qyx6NY3JXzrfjmOhNIq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1POFIaaRhY4BJMWJh3IilzGtGEdzmVwwe/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

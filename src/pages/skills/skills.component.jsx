@@ -19,21 +19,21 @@ const Skills = () => {
           <Col md={4}>
               <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">IT/Computer Science Tutoring</Card.Title>
+                <Card.Title className="text-center  card-title">ICT, Computing and Digital Literacy Trainer</Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Web Development</Card.Title>
+                <Card.Title className="text-center  card-title">Web Development (HTML, JS and CSS), (Currently Learning Python & Django)</Card.Title>
               </Card.Body>
             </Card>
             </Col>
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Networking</Card.Title>
+                <Card.Title className="text-center  card-title">Computer Networks</Card.Title>
               </Card.Body>
             </Card>
             </Col>
@@ -47,14 +47,14 @@ const Skills = () => {
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Research Skills</Card.Title>
+                <Card.Title className="text-center  card-title">Robotics & STEM Tools (e.g., LEGO EV3, LEGO SPIKE, micro:bit)</Card.Title>
               </Card.Body>
             </Card>
             </Col>
             <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Data Management</Card.Title>
+                <Card.Title className="text-center  card-title">Leadership and Mentorship</Card.Title>
               </Card.Body>
             </Card>
             </Col>

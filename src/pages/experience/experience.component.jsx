@@ -14,20 +14,17 @@ const Experience = () => {
           <Tilt options={{ max: 25 }}>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-              Kinderworld International School - ICT/Computer Science Tutor, Network Admin. (2020 To Date)
+              Hillcrest International School - ICT and Computer Science Teacher(2024 To Date)
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Text className="text-center style">     
                     <ul className="text-left">
-                      <li>Successfully built the entire organization's ICT infrastructure from ground up, This improved efficienncy of operations by 99%.</li>
-                      <li>Implementing data backups, Network security blueprients and monitoring/updating firewalls.</li>
-                      <li>Providing technical support to multiple users and fixing critical issues that directly affect operations. </li>
-                      <li>Contributing to the design, delivery and future planning and development of school's ICT curriculum.</li>
-                      <li>Planning and teaching ICT/Computer Science lessons to KS2 & KS3 students in addition to sponsoring and leading extra-curricular activities, ICDL supervision and co-ordination. </li>
-                      <li>Providing timely feedback to students and utilizing a data driven approach to teaching and learning.</li>
-                      <li>Developing assessment tasks using a wide range of formative assessment tools and keeping records.</li>
-                      <li>Comprehensively conducting trainings on ICT awareness, mobilizing available resources. I have achieved these through hosting of webinars and trainings sessions</li>    
+                      <li>Teach ICT and Computing across Key Stages, delivering creative, hands-on lessons aligned with international standards.</li>
+                      <li>Lead the school's Robotics and Coding Club, mentoring students in programming, robotics challenges, and tech competitions.</li>
+                      <li>Initiated and organized school-wide coding events to promote STEM awareness and engagement. </li>
+                      <li>Serve as a co-form tutor, providing pastoral care and academic guidance to a diverse group of students.</li>
+                      <li>Collaborate with cross-departmental teams to integrate technology into broader learning experiences. </li>
                     </ul>
                   </Card.Text>
                 </div>
@@ -35,16 +32,17 @@ const Experience = () => {
             </Card>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-              Brookhouse International School - IT Assistant (2017-2020)
+              Kinderworld International School - ICT, Digital Literacy Teacher, ICT Network Admin (2021-2024)
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Text className="text-center style">
                     <ul className="text-left">
-                      <li>Performed network troubleshooting and maintainance.</li>
-                      <li>Installed and configured management information systems and software.</li>
-                      <li>Conducted IT support and training sessions for all stakeholders on use of ICT systems and equipment.</li>              
-                      <li>Generated periodic reports, and maintained backups.</li>
+                      <li>Taught ICT to KS2 and KS3 students using engaging, interactive methods and a wide range of technologies.</li>
+                      <li>Contributed to the design, delivery, and continuous improvement of the school’s ICT curriculum.</li>
+                      <li>Provided timely, data-driven feedback to support student progress and achievement.</li>              
+                      <li>Collaborated with fellow teachers on lesson planning, resource sharing, and cross-marking tasks.</li>
+                      <li>Provided IT support and oversaw the functionality of the school's ICT infrastructure.</li>
                     </ul>
                   </Card.Text>
                 </div>
@@ -52,16 +50,18 @@ const Experience = () => {
             </Card>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-              Postal Communication Of Kenya - IT Intern (2017)
+              Brookhouse International School - IT Technician (2018 - 2020)
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Text className="text-center style">
       
                     <ul className="text-left">
-                    <li>Successfully carried out IT user support </li>
-                    <li>Installed, troubleshooted and maintained software systems.</li>
-                    <li>Prepared, generated reports and backed up data as instructed by supervisors.</li>
+                    <li>Provided technical support to users both on-site and remotely, ensuring timely resolution of ICT-related issues across the organization. </li>
+                    <li>Conducted training sessions for staff and stakeholders on the effective use of ICT systems and equipment.</li>
+                    <li>Assisted in the installation, configuration, and maintenance of network infrastructure and ERP systems.</li>
+                    <li>Supported data integrity and system security by managing server configurations, backup routines, and access control under the guidance of senior IT leadership.</li>
+                    <li>Maintained and monitored ICT devices, contributing to the overall stability and functionality of the institution's IT environment.</li>
                     </ul>
                   </Card.Text>
                 </div>
