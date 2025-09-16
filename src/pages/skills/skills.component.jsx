@@ -19,23 +19,18 @@ const Skills = () => {
           <Col md={4}>
               <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">ICT, Computing and Digital Literacy Trainer</Card.Title>
+                <Card.Title className="text-center  card-title">ICT, Computing and Digital Literacy Training</Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Web Development (HTML, JS and CSS), (Currently Learning Python & Django)</Card.Title>
+                <Card.Title className="text-center  card-title">Web Development (HTML, JS, Python, CSS and Django Framework)</Card.Title>
               </Card.Body>
             </Card>
             </Col>
             <Col>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Computer Networks</Card.Title>
-              </Card.Body>
-            </Card>
             </Col>
             <Col>
             <Card className="focus mt-2 mb-2">

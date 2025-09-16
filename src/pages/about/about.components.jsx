@@ -22,9 +22,11 @@ const About = () => {
              </Col>
              <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                <br />A dedicated and versatile ICT and Computing Trainer with a strong background in IT Support and Web Development. I bring a passion for technology and education, with proven experience in delivering engaging computing lessons, providing effective technical support, and building responsive websites. With a solid understanding of both educational and technical environments, I excel at simplifying complex concepts, solving IT issues efficiently, and developing digital solutions that enhance user experience.  
+                <br />I am a dedicated and versatile Computing/ICT Trainer with a strong background in education, IT support, and web development. My core focus is on delivering engaging and practical computing lessons that inspire students to think critically, solve problems creatively, and build digital confidence.
+
+                     Alongside teaching, I bring experience in building responsive web applications and providing efficient IT support, which allows me to bridge classroom learning with real-world technology. I excel at simplifying complex concepts for learners, troubleshooting technical issues, and creating digital solutions that enhance both teaching and learning experiences.  
                 <br />
-                <br />My passion is to contribute to an environment that not only challenges but also rewards the collective efforts of both educators and learners.
+                <br />My passion is to contribute to an environment where education and technology work hand in hand—challenging learners to grow, empowering educators to innovate, and fostering a culture of continuous improvement in digital skills.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
