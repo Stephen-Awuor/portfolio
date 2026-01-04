@@ -6,6 +6,7 @@ import L_TEC from "../../assets/img/projects/webinar.jpg";
 import L_PHARMA from "../../assets/img/projects/pharma.PNG";
 import L_STUDY from "../../assets/img/projects/study.PNG"
 import L_FIXTURES from "../../assets/img/projects/fix.PNG"
+import L_CHAT from "../../assets/img/projects/chat.PNG"
 import L_KIS from "../../assets/img/projects/kis.PNG";
 import L_G from "../../assets/img/projects/g-writers.PNG";
 import Accordion from "react-bootstrap/Accordion";
@@ -29,9 +30,105 @@ import "./projects-timeline.style.css";
 function ProjectTimeline() {
     return (
         <div id='projects'>
-            <h1 className="pt-3 text-center font-details-b pb-3">I enjoy building for the web....</h1>
+            <h1 className="pt-3 text-center font-details-b pb-3">When free, I contribute to the web....</h1>
             <Timeline>
                 <Events>
+
+                      {/* Project: ChatApp */}
+                    <ImageEvent
+                        className="text-center"
+                        text="Chat App"
+                        src={L_CHAT}
+                        alt="fix"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> The chat app is a real-time messaging platform designed to enable fast, secure, and user-friendly communication between individuals or groups. It allows users to send messages instantly, stay connected across devices, and manage conversations efficiently through a clean and intuitive interface.
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>AI-powered assistant (smart replies, message suggestions, or automated responses).</li>
+                                                    <li>Real-time messaging.</li>
+                                                    <li>One-on-one and group chats.</li>
+                                                    <li>Secure, scalable Django backend.</li>
+                                                    <li>Message history storage.</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML 5"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_SQLITE}
+                                                                alt="sqlite"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                            SQLITE
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_PYTHON}
+                                                                alt="python"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            Python
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_BOOTSTRAP}
+                                                                alt="bootstrap"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            Bootstrap
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                    <a href="https://github.com/Stephen-Awuor/ChatApp/tree/master" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-info">
+                        Get code/Contribute
+                      </Button>
+                    </a>
+                  </div>
+                        </div>
+                    </ImageEvent>
+
+
  {/* Project: g-writers */}
                 <ImageEvent
                         className="text-center"
