@@ -150,7 +150,7 @@ function ProjectTimeline() {
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong> This is G-Writers' official website that i built using html, css, javascript, Bootstrap and PhP. Am still working on many more Features.
+                                                <strong>Description:</strong> This is Work Help Hub's official website that i built using html, css, javascript, Bootstrap and PhP. Am still working on many more Features.
                                                 <hr />
                                                 <strong>Features:</strong>
                                                 <ul className="list-styles pt-1">
@@ -211,7 +211,7 @@ function ProjectTimeline() {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                    <a href="https://stephanie-academics.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://workhelphub.com/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         View online
                       </Button>
