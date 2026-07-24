@@ -7,10 +7,15 @@
 }
 
 .jumbo-style {
-  background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%,);
+  background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%);
+  overflow-x: hidden;
 }
 
 .body-title-style {
   font-size: 15px;
   font-weight: 400;
+}
+
+#experience {
+  overflow-x: hidden;
 }

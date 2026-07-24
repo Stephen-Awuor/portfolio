@@ -8,6 +8,21 @@ import profile from '../../assets/img/profile/profile.png'
 
 import './about.style.css'
 
+const education = [
+  {
+    school: "Strathmore University, Nairobi, Kenya",
+    detail: "Master of Science in Information Systems Security — Expected Completion: 2029",
+  },
+  {
+    school: "Kenya School of TVET, Nairobi, Kenya",
+    detail: "Diploma in Technical Trainer Education (Computer Studies) — Graduated: 2023",
+  },
+  {
+    school: "Multimedia University of Kenya",
+    detail: "Bachelor of Business Information Technology — Graduated: 2017",
+  },
+];
+
 const About = () => {
     return (
         <div id='about'> 
@@ -22,12 +37,21 @@ const About = () => {
              </Col>
              <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                <br />I am a dedicated and versatile Computing/ICT Trainer with a strong background in education, IT support, and web development. My core focus is on delivering engaging and practical computing lessons that inspire students to think critically, solve problems creatively, and build digital confidence.
+                <br />A dedicated, TVET-certified ICT and Computer Science Educator with nearly a decade of experience delivering high-impact digital pedagogy within premier international school environments. Proven track record in designing and executing engaging, inquiry-based computing curricula, with deep specialization in Cambridge IGCSE Computer Science and ICT frameworks.
 
-                     Alongside training, I bring experience in building responsive web applications and providing efficient IT support, which allows me to bridge classroom learning with real-world technology. I excel at simplifying complex concepts for learners, troubleshooting technical issues, and creating digital solutions that enhance both teaching and learning experiences.  
+                     Adept at managing academic EdTech infrastructure, spearheading student STEM and robotics programs, and simplifying advanced technical concepts for diverse learners. Combines an ongoing Master of Science in Information Systems Security with a formal TVET Trainer Diploma to bridge the gap between academic theory, robust industry practices, and cutting-edge digital literacy.
                 <br />
-                <br />My passion is to contribute to an environment where education and technology work hand in hand challenging learners to grow, empowering educators to innovate, and fostering a culture of continuous improvement in digital skills.
-                <br /> <br />
+
+                <div className="education-title">Education</div>
+                {education.map((item, index) => (
+                  <div key={index} className="education-item">
+                    <strong>{item.school}</strong>
+                    <br />
+                    {item.detail}
+                  </div>
+                ))}
+
+                <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">

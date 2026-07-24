@@ -16,3 +16,14 @@
     font-weight: 500;
     color: #ffffff;
   }
+
+  .education-title {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .education-item {
+    margin-bottom: 0.8em;
+  }

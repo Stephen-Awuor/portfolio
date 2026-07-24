@@ -1,3 +1,39 @@
+#projects {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#projects .overflow-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+#projects .timeline.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#projects .events {
+  width: 100% !important;
+}
+
+#projects .event {
+  width: 100% !important;
+}
+
+#projects .card-col {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+#projects img {
+  max-width: 100%;
+  height: auto;
+}
+
 .accordian-main {
     cursor: pointer;
     display: inline-block;
